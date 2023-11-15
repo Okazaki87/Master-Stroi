@@ -1,2 +1,2 @@
-## landing page Мастер Строй без адаптива
+## Landing Page 
 
