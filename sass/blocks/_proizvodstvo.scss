@@ -1,0 +1,59 @@
+.proizvodstvo {
+    background-color: #404040;
+   
+    &__title {
+        color: #FFF;
+        text-align: center;
+        font-size: 35px;
+        font-weight: 700;
+        padding-top: 120px;
+        margin-bottom: 80px;
+
+    }
+    &__row {
+        display: flex;
+        justify-content: space-between;
+        padding-bottom: 128px;
+        &__left {
+            &__container {
+                display: flex;
+                align-items: center;
+                column-gap: 30px;
+                &:nth-last-child(n+2) {
+                    margin-bottom: 35px;
+                }
+                &__icon {
+                    img {
+                        max-width: 66px;
+                    }
+                }
+                &__descr {
+                    color: #FFF;
+                    font-size: 14px;
+                    line-height: normal;
+                    max-width: 238px;
+                }
+            }
+        }
+        &__right {
+            margin-top:10px;
+        }
+    
+    }
+    &__logo {
+        position: relative;
+        margin-bottom: 53px;
+        &__fon {
+            width: 231px;
+            height: 74px;
+            border-radius: 30px;
+            background: #FFF;
+           
+        }
+        &__image {
+            position: absolute;
+            top:0;
+            padding: 0 38px;
+        }
+    }
+}

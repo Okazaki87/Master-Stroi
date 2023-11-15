@@ -1,0 +1,40 @@
+.plitka {
+    background: url(../img/bghead.jpg) center center / cover no-repeat;
+    &__row {
+        padding: 135px 0;
+        max-width: 782px;
+        /* display: block; */
+        margin: 0 auto;
+    }
+    &__title {
+        color: #FFF;
+        text-align: center;
+        font-size: 39px;
+        font-weight: 700;
+        line-height: normal;
+        margin-bottom: 20px;
+    }
+    &__descr {
+        color: #FFF;
+        text-align: center;
+        font-size: 14px;
+        line-height: normal;
+        margin-bottom: 32px;
+    }
+    &__btn {
+        padding: 20px 85px;
+        display: block;
+        margin: 0 auto;
+        width: 240px;
+        text-align: center;
+        border-radius: 30px;
+        background: #E05100;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: normal;
+        transition: 0.5s ease;
+        &:hover {
+            background-color: #FC5F07;
+        }
+    }
+}

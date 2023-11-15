@@ -1,0 +1,114 @@
+.tovar {
+    &__gridbox {
+        display: grid;
+        grid-template-columns: repeat(2, 510px);
+        grid-template-rows: repeat(2, minmax(349px, auto)); // автоматически увеличиваем высоту если не влазит контент
+        justify-content: center;
+        grid-auto-rows: 349px;
+        margin-top: 80px;
+        padding-bottom: 120px;
+        column-gap: 30px;
+        row-gap: 17px;
+        &__item {
+            border-radius: 30px;
+            background: #FFF;
+            box-shadow: 4px 4px 20px 0px rgba(0, 0, 0, 0.25);
+        }
+        &__row {
+            display: flex;
+            &__left {
+                min-width: 330px;
+                padding-left: 23px;
+                &__foto {
+                    padding-top: 20px;
+                    padding-bottom: 27px;
+                    img {
+                        display: block;
+                        max-width: 283px;
+                        object-fit: cover;
+                    }
+                }
+                &__title {
+                    color: #000;
+                    font-size: 14px;
+                    font-weight: 700;
+                    margin-bottom: 15px;
+                }
+                &__spisok {
+                    color: #000;
+                    font-size: 14px;
+                    font-weight: 400;
+                    line-height: normal;
+                    margin-bottom: 10px;
+                }
+                &__colorrow {
+                    display: flex;
+                    &__item {
+                        width: 15px;
+                        height: 16px;
+                        &:nth-last-child(n+2) {
+                            margin-right: 10px;
+                        }
+                        &:nth-child(1) {
+                            background: #737373;
+                        }
+                        &:nth-child(2) {
+                            background: #9C0909;
+                        }
+                        &:nth-child(3) {
+                            background: #D48D37;
+                        }
+                        &:nth-child(4) {
+                            background: #964B00;
+                        }
+                        &:nth-child(5) {
+                            background: #DC143C;
+                        }
+                        &:nth-child(6) {
+                            background: #49423D;
+                        }
+                        &:nth-child(7) {
+                            background: #D77D31;
+                        }
+                        &:nth-child(8) {
+                            background: #000;
+                        }
+                    }
+                       
+                    }
+                }
+
+                &__right {
+                    background-color: #404040;
+                    border-radius: 0px 30px 30px 0px;
+                    width: 180px;
+                    height: 349px;
+                    padding: 20px 33px 0 23px;
+                    position: relative;
+                    &__spisok {
+                        color: #FFF;
+                        font-size: 12px;
+                        font-weight: 400;
+                     
+                        span {
+                            color: #FFF;
+                            font-size: 12px;
+                            font-weight: 700;
+                            line-height: 18px;
+                        }
+                        li:nth-last-child(n+2) {
+                            margin-bottom: 25px;
+                        }
+                        &__plus {
+                            position: absolute;
+                            bottom: -3px;
+                            right: 0;
+                            display: block;
+                        }
+                    }
+  
+                }
+        }
+
+    }
+}

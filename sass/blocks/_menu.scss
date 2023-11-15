@@ -1,0 +1,30 @@
+.menu {
+    padding: 15px 0;
+    &__row {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        &__menunav {
+           
+            ul{
+                display: flex;
+                align-items: center;
+            }
+            li:nth-last-child(n+2) {
+                margin-right: 49px;
+            }
+            a {
+                color:#000;
+                font-size: 12px;
+                font-weight: bold;
+            }
+            a:hover {
+                color:#E05100;
+            }
+        }
+    }  
+    &__logo {
+        max-width: 115px;
+    }
+}
+
