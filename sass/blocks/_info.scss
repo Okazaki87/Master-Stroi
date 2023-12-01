@@ -6,9 +6,11 @@
     }
     &__foto {
         padding-right: 68px;
+        padding-top: 20px;
+        padding-bottom: 20px;
         img {
             display: block;
-            border-radius: 0px 30px 30px 0px;
+            border-radius: 30px;
         }
     }
     &__right {
@@ -24,18 +26,18 @@
         }
         &__titletwo {
             color: #FFF;
-            font-size: 20px;
+            font-size: clamp(0.875rem, 0.711rem + 0.82vw, 1.25rem);
             font-weight: 500;
             line-height: normal;
             padding-bottom: 30px;
-            width: 706px;
+            width: clamp(20rem, 9.452rem + 52.74vw, 44.063rem);
         }
         &__descr {
             color: #FFF;
-            font-size: 12px;
+            font-size: clamp(0.75rem, 0.695rem + 0.27vw, 0.875rem);
             font-weight: 400;
             line-height: normal;
-            width: 705px;
+            width: clamp(20rem, 9.452rem + 52.74vw, 44.063rem);
             padding-bottom: 45px;
         }
     }

@@ -1,26 +1,267 @@
-@media (max-width: 1200px) {
-    .container {
-        max-width: 960px;
+@media (max-width: 1539px) {
+    .info__foto {
+        padding-right: 20px;
+    }
+    .info__row {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .info__btn {
+        margin-bottom: 45px;
     }
 }
 
+@media (max-width: 1150px) {
+    .tovar__gridbox {
+        grid-template-columns: repeat(1,510px);
+    }
+    .video {
+        width: 500px;
+        height: 400px;
+    }
+    .proizvodstvo__row {
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+    }
+    .priemuhestva__grid  {
+        grid-template-columns: repeat(2,330px);
+    }
+
+}
+@media (max-width: 1440px) {
+    .info__foto {
+        padding-right: 0px;
+        text-align: center;
+    }
+}
+@media (max-width: 1050px) {
+    .header__row__btn {
+        padding: 15px 30px;
+    }
+
+    .header__row__telephone__number {
+        margin-right: 15px;
+    }
+
+    .menu__row {
+        justify-content: center;
+        column-gap: 30px;
+     }
+
+
+    .menu__row__menunav li:nth-last-child(n+2) {
+        margin-right: 30px;
+    }
+    .catalog__rowgrid {
+        justify-content: center;
+        gap: 25px;
+        grid-template-columns: repeat(3, 240px);
+        grid-template-rows: 264px 264px 264px;
+    }
+
+}
+
+@media (max-width: 850px) {
+    .catalog__rowgrid {
+        grid-template-columns: repeat(2, 240px);
+        grid-template-rows: repeat(4, 264px);
+    }
+}
 @media (max-width: 992px) {
-    .container {
-        max-width: 720px;
+    .header__row {
+        flex-wrap: wrap;
+        justify-content: center;
+        column-gap: 10px;
     }
-   }
+    .header__row__location::after {
+        margin-left: 15px;
+    }
+    .menu__row__menunav ul {
+        flex-wrap: wrap;
+        row-gap: 7px;
+        justify-content: center;
+    }
+    .info__right__title {
+        padding: 40px 20px 40px 20px;
+    }
+    .info__foto img {
+        padding: 0px 20px;
+        width: 650px;
+    }
 
-@media  (max-width: 768px) {
-    .container {
-        max-width: 540px;
+    .footer__row {
+        gap: 60px;
+        justify-content: space-between;
+    }
+
+    
+    
+}
+
+@media (max-width: 959px) {
+    .header__row {
+        row-gap: 15px;
+    }
+    .header__row__btn {
+        padding: 15px 54px;
     }
 }
 
-@media  (max-width: 576px) {
-    .container {
-        width: 100%;
+@media (max-width: 768px) {
+    .menu__row {
+        flex-wrap: wrap;
+        row-gap: 5px;
+    }
+    .plitka__row {
+        padding: 70px 0;
+    }
+    .catalog__title {
+        padding-top: 50px;    
+    }
+    .catalog {
+        padding-bottom: 50px;
+    }
+    .info__foto img {
+        width: 500px;
+        aspect-ratio: 1;
+        padding: 0px 20px;
+    }
+    .info__right__titletwo {
         padding: 0 10px;
+        padding-bottom: 30px;
+    }
+    .info__right__descr  {
+        padding: 0 10px 45px 10px;
+    }
+    .tovar__gridbox {
+        margin-top: 50px;
+    }
+
+    .proizvodstvo__row { 
+        flex-wrap: wrap;
+    }
+    .proizvodstvo__title {
+        padding-top: 40px;
+        margin-bottom: 40px;
+    }
+    .proizvodstvo__logo {
+        margin-bottom: 40px;
+    }
+    .work__descr {
+        padding-top: 50px;
+    }
+    .priemuhestva__grid  {
+        grid-template-columns: repeat(1,310px);
+        row-gap: 30px;
+    }
+    .footer__row__right {
+        margin-left: 0;
+    }
+    .footer__row {
+        flex-direction: column;
+    }
+
+
+}
+
+
+@media (max-width: 744px) {
+    .header__row {
+        column-gap: 35px;
+    }
+    .header__row__location::after {
+        content: none;
+    }
+    .header__row__grafik::after {
+        content: none;
+    }
+    .header__row img {
+        margin-right: 10px;
+    }
+}
+
+@media (max-width: 550px) {
+    .catalog__rowgrid {
+        grid-template-columns: repeat(1, 240px);
+        grid-template-rows: repeat(8, 264px);
+    } 
+    .video {
+        width: 310px;
+        height: 200px;
+    }
+    .footer__row__right__container {
+        flex-direction: column;
+    }
+    .footer__row__right__box {
+        margin-bottom: 30px;
+    }
+}
+
+@media (max-width: 549px) {
+    .tovar__gridbox {
+        grid-template-columns: repeat(1,300px);
+    }
+    .tovar__gridbox__row__left {
+        min-width: 200px;
+        padding-left: 10px;
+    }
+    
+    .tovar__gridbox__row__left__foto {
+        padding-top: 20px;
+        padding-bottom: 27px;
+    }
+    .tovar__gridbox__row__left__spisok {
+        color: #000;
+        font-size: 12px;
+        font-weight: 400;
+        line-height: normal;
+        margin-bottom: 10px;
+    }
+    .tovar__gridbox__row__left__foto img {
+        max-width: 130px;
+    }
+    .tovar__gridbox__row__left__colorrow__item:nth-last-child(n+2) {
+        margin-right: 5px;
+    }
+    .tovar__gridbox__row__right {
+        padding: 20px 0px 0px 6px;
+    }
+    
+    .tovar__gridbox__row__left {
+        min-width: 175px;
     }
     
 }
- 
+
+
+@media (max-width: 475px) {
+    
+.menu__row__menunav ul {
+    row-gap: 15px;
+
+}
+.header__row__btn {
+    padding: 15px 35px;
+    font-size: 14px;
+}
+.plitka__btn {
+    padding: 15px 35px;
+}
+.catalog__btn {
+    padding: 15px 35px; 
+}
+.info__btn {
+    padding: 20px 65px;
+    width: 230px;
+    margin: 0 auto;
+
+}
+.info__btn {
+    margin-bottom: 45px;
+}
+
+@media (max-width: 320px) {
+
+}
+}

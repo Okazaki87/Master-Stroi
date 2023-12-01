@@ -9,7 +9,7 @@
     &__title {
         color: #FFF;
         text-align: center;
-        font-size: 39px;
+        font-size: clamp(1.125rem, 0.55rem + 2.88vw, 2.438rem);
         font-weight: 700;
         line-height: normal;
         margin-bottom: 20px;
@@ -17,7 +17,7 @@
     &__descr {
         color: #FFF;
         text-align: center;
-        font-size: 14px;
+        font-size: clamp(0.75rem, 0.695rem + 0.27vw, 0.875rem);
         line-height: normal;
         margin-bottom: 32px;
     }
