@@ -57,15 +57,21 @@ a {
     text-decoration: none;
     font-size: 12px;
 }
+img {
+	display: block;
+	max-width: 100%;
+}
 
 .container {
-    width: 1050px;
+    max-width: calc(1050px + 10px * 2);
     margin: 0 auto;
+	padding-inline: 10px;
 }
 
 * {
 	box-sizing: border-box; // убираем проблему с шириной
 }
+
 
 @import 'blocks/header';
 @import 'blocks/menu';
